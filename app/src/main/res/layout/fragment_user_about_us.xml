@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.UserAboutUs">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="About Us "
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/adamina"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30sp"
+            android:src="@drawable/main_logo_without_text" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/main_logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:background="@drawable/round_boder_design">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/adamina"
+                    android:text="Who We Are"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/adamina"
+                    android:textColor="@color/colorPrimary"
+                    android:text="Since inception in 2009, we have turned out to be number one jobs provider in Nepal with 300 million+ page views with 2.5 million+ progressive visits every month, created 180,000+ success stories and registered 600,000+ job seekers in our database. We have been offering 32,000+ employers promote their employer brands to jobseekers and advertise diverse opportunities to over a million candidates inside Nepal and abroad. Established as an inevitable bridge between the hiring employers and the job seekers, we are well-known as a national leader in recruitment  solutions &amp; career management in Nepal. \n"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:layout_marginBottom="150dp"
+                android:background="@drawable/round_boder_design">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/adamina"
+                    android:text="What We Do"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/adamina"
+                    android:textColor="@color/colorPrimary"
+                    android:text="We are more than just a job site. From the web, to mobile, to social media tools and apps, we service companies of all sizes to find the right fit using most advanced technology in Nepal. Providing recruitment solutions to employers finding, fostering and preparing the right candidates in every possible ways with an effective tracking system and a dedicated team of customer service to both; the employers and the job seekers, has always been our primary goal."/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

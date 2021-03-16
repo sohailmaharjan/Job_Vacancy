@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewOrg">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_view_org"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="View Job Vacancy "
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/adamina"/>
+
+        <ImageView
+            android:id="@+id/img_back_view_org"
+            android:layout_width="30dp"
+            android:layout_height="30sp"
+            android:src="@drawable/ic_back" />
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_logo_without_text"
+                android:layout_marginTop="10dp"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/tv_name_view_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/adamina"
+                android:text="Softwaric Collage of IT and E-commerce" />
+
+            <TextView
+                android:id="@+id/tv_description_view_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="Our vision is “Locally, we want to strengthen individuals and communities to take part in society by ensuring access to knowledge and relevant education. We wish to support sustainable, environmentally friendly livelihood activities identified by local communities. Nationally, we want to support democratic development that promotes popular participation. We wish to promote social inclusion, compassion and a culture of non-violence”.  " />
+
+            <TextView
+                android:id="@+id/tv_email_view_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/adamina"
+                android:text="Email: softwarica@gmial.com"/>
+
+            <TextView
+                android:id="@+id/tv_contact_view_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/adamina"
+                android:text="Contact: 9898989898"/>
+
+            <TextView
+                android:id="@+id/tv_address_view_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/adamina"
+                android:text="Address: Kathmandu Nepal"/>
+
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="50dp"
+         android:layout_marginTop="50dp"
+         android:orientation="horizontal">
+         <Button
+             android:id="@+id/btn_verified_org"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:fontFamily="@font/adamina"
+            android:layout_weight="1"
+             android:text="Verified"
+             android:textSize="20dp" />
+
+         <Button
+             android:id="@+id/btn_cancle_org"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+           android:layout_weight="1"
+             android:layout_marginLeft="10dp"
+             android:layout_marginBottom="50dp"
+             android:fontFamily="@font/adamina"
+             android:text="Cancle"
+             android:textSize="20dp" />
+     </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+        </LinearLayout>

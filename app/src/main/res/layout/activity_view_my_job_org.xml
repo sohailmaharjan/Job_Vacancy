@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewMyJobOrg">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_view_job_org"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="View Job "
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/adamina"/>
+
+        <ImageView
+            android:id="@+id/img_back_view_job_org"
+            android:layout_width="30dp"
+            android:layout_height="30sp"
+            android:src="@drawable/ic_back" />
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_logo_without_text"
+                android:layout_marginTop="10dp"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/tv_name_view_job_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/adamina"
+                android:text="Softwaric Collage of IT and E-commerce" />
+
+            <TextView
+                android:id="@+id/tv_description_view_job_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="Our vision is “Locally, we want to strengthen individuals and communities to take part in society by ensuring access to knowledge and relevant education. We wish to support sustainable, environmentally friendly livelihood activities identified by local communities. Nationally, we want to support democratic development that promotes popular participation. We wish to promote social inclusion, compassion and a culture of non-violence”.  " />
+
+            <TextView
+                android:id="@+id/tv_title_view_job_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/adamina"
+                android:text="Androd Developer"/>
+
+            <TextView
+                android:id="@+id/tv_job_category_view_job_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/adamina"
+                android:text="Job Catogory: General Mgmt. / Administration / Operations"/>
+
+            <TextView
+                android:id="@+id/tv_job_type_view_job_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/adamina"
+                android:text="Job Type: Full Time"/>
+
+            <TextView
+                android:id="@+id/tv_job_vacancy_view_job_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/adamina"
+                android:text="No of Vacancy: 10"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/tv_location_view_job_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/adamina"
+                android:text="Job Location: Kathmandu Nepal"/>
+
+            <TextView
+                android:id="@+id/tv_salary_view_job_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/adamina"
+                android:text="Salary: Rs 40000"/>
+
+            <TextView
+                android:id="@+id/tv_postdate_view_job_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/adamina"
+                android:text="Post Date: 2021-2-1"/>
+
+            <TextView
+                android:id="@+id/tv_deadline_view_job_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/adamina"
+                android:text="Date Line: 2021-2-1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/adamina"
+                android:text="Job Specification"/>
+
+            <TextView
+                android:id="@+id/tv_education_view_job_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/adamina"
+                android:text="Education Level: Must completed bacholer degree"/>
+
+
+            <TextView
+                android:id="@+id/tv_experience_view_job_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/adamina"
+                android:text="Experience : More than or equals to 5 years"/>
+
+            <TextView
+                android:id="@+id/tv_professional_view_job_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/adamina"
+                android:text="Professional Skill : communication, communication, communication,java,oracle "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/adamina"
+                android:text="Job Description"/>
+
+            <TextView
+                android:id="@+id/tv_job_description_view_job_org"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/adamina"
+                android:text="The Office Manager reports to the Director and is responsible for providing office management services to the Just Nepal Foundation Offices and its affiliated organisations. This includes maintaining office services and efficiency, supervising staff and maintaining office records."/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btn_update_job"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/adamina"
+                    android:text="Update"
+                    android:textSize="20dp" />
+
+
+                <Button
+                    android:id="@+id/btn_delete_job"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/adamina"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="Delete"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

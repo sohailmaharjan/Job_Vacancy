@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_org_list"
+        android:icon="@drawable/ic_list"
+        android:title="Organization List"/>
+    <item
+        android:id="@+id/nav_new_request"
+        android:icon="@drawable/ic_add"
+        android:title="New Request"/>
+   <item
+        android:id="@+id/nav_about_admin"
+        android:icon="@drawable/ic_about_us"
+        android:title="About"/>
+</menu>
